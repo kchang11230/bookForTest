@@ -32,7 +32,8 @@ mongoose.connect(process.env.DATABASE_URL, {
 });
 
 const db = mongoose.connection;
-db.on('error', error => console.log);
+//db.on('error', error => console.log);
+db.on('error', error => console.error('Error connecting to database:', error));
 db.once('open', () => console.log('Connected to Mongoose'));
 
 app.use('/', indexRouter);

@@ -14,7 +14,7 @@ services:
         description: 'Main function for the book library'  
         codeUri: ./  
         handler: index.main  
-        runtime: Node.js12 
+        runtime: Node.js14 
         memorySize: 128  
         timeout: 60 
       triggers:
