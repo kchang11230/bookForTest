@@ -6,8 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "devStart": "nodemon server.js",
-    "build": "npm run lint && npm run test && npm run compile",
-    "lint": "eslint *.js"
+    "build": "npm run lint && npm run compile",
+    "lint": "eslint *.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
