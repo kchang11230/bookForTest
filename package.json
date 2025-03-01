@@ -6,19 +6,19 @@
   "scripts": {
     "start": "node server.js",
     "devStart": "nodemon server.js",
-     "build": "your-build-command-here"
+     "build": "npm run lint && npm run test && npm run compile" 
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SampathParavasthu/book-library-nodejs.git"
+    "url": "git+https://github.com/pirate-barbosa/book-library-nodejs.git"  
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SampathParavasthu/book-library-nodejs/issues"
+    "url": "https://github.com/pirate-barbosa/book-library-nodejs/issues"  
   },
-  "homepage": "https://github.com/SampathParavasthu/book-library-nodejs#readme",
+  "homepage": "https://github.com/pirate-barbosa/book-library-nodejs#readme", 
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
